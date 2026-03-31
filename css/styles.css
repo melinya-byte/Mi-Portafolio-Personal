@@ -1,0 +1,113 @@
+
+/* 1. FUENTE */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* 2. ENCABEZADO Y NAVEGACIÓN */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background: #34495e;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Uso Flexbox para el menú */
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 3. SECCIONES GENERALES */
+section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+/* 4. TARJETAS (Flexbox) */
+.contenedor-tarjetas {
+    display: flex; 
+    flex-wrap: wrap; /* Para que bajen si no entran en la pantalla */
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    background: #eee;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 45%; /* Dos columnas en pantallas grandes */
+    min-width: 250px;
+    transition: transform 0.3s ease; /* Preparando la animación */
+}
+
+/* EFECTO HOVER (Animación obligatoria) */
+.tarjeta:hover {
+    transform: scale(1.05); /* Se agranda un poquito al pasar el mouse */
+    background-color: #e0e0e0;
+}
+
+/* 5. IMÁGENES RESPONSIVAS */
+img {
+    max-width: 100%; /* No se salen de su contenedor */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* 6. FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* 7. FOOTER */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #2c3e50;
+    color: white;
+}

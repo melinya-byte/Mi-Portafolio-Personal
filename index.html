@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Mi Portafolio Personal</title>
+    
+<link href="[https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap](https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap)" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio Personal</h1> </header>
+
+        <!-- SECCIÓN DE NAVEGACIÓN: Permite al usuario desplazarse por las secciones del portafolio. 
+     Mejora futura: Implementar un menú "hamburguesa" para que se vea mejor en celulares muy pequeños. -->
+
+    <nav> <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+<!-- SECCIÓN SOBRE MÍ: Presentación personal y declaración de misión sobre accesibilidad. 
+     Mejora futura: Agregar un botón para descargar mi CV en formato PDF accesible. -->
+
+    <main> <section id="sobre-mi"> <h2>Sobre mí</h2>
+            <p>¡Bienvenidos a mi espacio digital! Soy Melinya.
+                Me considero una persona curiosa y creativa, lo que me llevó a interesarme por el desarrollo web. Disfruto del proceso de transformar una idea en una página funcional.
+                Además de la programación, me interesan el diseño, la ciberseguridad y la tecnología de vanguardia. Mi objetivo como desarrollador es construir sitios web que no solo funcionen bien,
+                sino que también conecten con las personas de manera sencilla y eficiente.Tengo un compromiso especial con la accesibilidad digital: creo firmemente que la web debe contemplar la diversidad
+                de capacidades de todos los usuarios. Me motiva diseñar interfaces que eviten barreras comunes, como fuentes ilegibles o sistemas de identificación poco inclusivos, asegurando que cualquier persona,
+                pueda navegar con autonomía y dignidad. </p> <img src="img/melinya.jpg" alt="Foto de Melinya mostrando su mejor perfil en un campo de rojas flores"> </section>
+
+<!-- SECCIÓN DE TARJETAS: Muestra los proyectos destacados usando un diseño de columnas con Flexbox. 
+     Mejora futura: Añadir una ventana (pop-up) que muestre más detalles técnicos de cada proyecto al hacer clic. -->
+
+        <section id="tarjetas"> <h2>Mis Proyectos</h2>
+            <div class="contenedor-tarjetas">
+                <article class="tarjeta"> <img src="img/portafolio.jpg" alt="Captura de mi portafolio">
+                    <h3>Página de prueba en HTML</h3>
+                    <p>Proyecto realizado para practicar estructuras de control en HTML y diseño con Flexbox.</p>
+                </article>
+                <article class="tarjeta"> <img src="img/infermentum.jpg" alt="Captura de proyecto In Fermentum">
+                    <h3>In fermentum</h3>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades"> <h2>Habilidades</h2>
+            <ul> <li>HTML & CSS</li>
+                <li>Análisis de datos</li>
+                <li>Ciberseguridad</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO: Formulario básico para que me envíen mensajes. 
+     Mejora futura: Validar los campos con JavaScript para que el usuario
+     reciba un mensaje de que el envío fue realizado con éxito. -->
+
+        <section id="contacto"> <h2>Contacto</h2>
+            <form action="#"> <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellido" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono" required>
+                <button type="submit">Enviar</button> </form>
+        </section>
+
+        <section id="peliculas"> <h2>Peliculas Favoritas</h2>
+            <article>
+                <h3>Hasta el Último Hombre</h3>
+                <img src="img/hacksaw.jpg" alt="Poster de la película Hasta el último hombre">
+                <p>No matarás. En los inicios de la Segunda Guerra Mundial, Doss conoce a una joven enfermera, de quien se enamora, prometiéndose ambos una vida juntos.
+                    Pero al estallar el conflicto y al enlistarse su hermano en el ejército, decide colaborar como médico, anteponiendo una condición que impone su religión:
+                    no tocará un arma, más allá de lo peligroso que esto sea en ese entorno.</p>
+            </article>
+
+            <article>
+                <h3>Le Palais Idéal du Facteur Cheval</h3>
+                <img src="img/palaisideal.jpg" alt="Poster de la película Le palais idéal du facteur Cheval">
+                <p>Sur de Francia, año 1879. Ferdinand Cheval es un humilde cartero que sueña despierto con un mundo lleno de hermosos edificios que solo ha visto en
+                    las postales que reparte. Durante una de las rondas, conoce a la viuda Filomena y de su unión nace Alice.
+                    Cheval adora tanto a su hija que se propone construirle con sus propias manos un increíble palacio
+            </article>
+
+            <article>
+                <h3>In Time</h3>
+                <img src="img/intime.jpg" alt="Poster de la película In Time">
+                <p>El hallazgo de una fórmula contra el envejecimiento trae consigo no sólo superpoblación, sino también la transformación del tiempo en moneda de cambio
+                    que permite sufragar tanto lujos como necesidades. Los ricos pueden vivir para siempre, pero los demás tendrán que negociar cada minuto de vida.
+                    Los pobres mueren jóvenes</p>
+            </article>
+            </section>
+
+    </main>
+
+    <footer> <p>Sigueme en mis redes: <a href="#">LinkedIn</a></p>
+    </footer>
+
+    </body>
+</html>
