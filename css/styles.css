@@ -66,7 +66,7 @@ section {
     transition: transform 0.3s ease; /* Preparando la animación */
 }
 
-/* EFECTO HOVER (Animación obligatoria) */
+/* EFECTO HOVER (Animación) */
 .tarjeta:hover {
     transform: scale(1.05); /* Se agranda un poquito al pasar el mouse */
     background-color: #e0e0e0;
