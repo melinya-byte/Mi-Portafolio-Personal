@@ -4,9 +4,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Mi Portafolio Personal</title>
-    
-<link href="[https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap](https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap)" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -62,14 +60,27 @@
      Mejora futura: Validar los campos con JavaScript para que el usuario
      reciba un mensaje de que el envío fue realizado con éxito. -->
 
-        <section id="contacto"> <h2>Contacto</h2>
-            <form action="#"> <input type="text" placeholder="Nombre" required>
-                <input type="text" placeholder="Apellido" required>
-                <input type="email" placeholder="Email" required>
-                <input type="tel" placeholder="Teléfono" required>
-                <button type="submit">Enviar</button> </form>
+       <section id="contacto"> 
+            <h2>Contacto</h2>
+            <form action="#"> 
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                
+                <label for="tel">Teléfono:</label>
+                <input type="tel" id="tel" name="tel" placeholder="Tu número de teléfono" required>
+                
+                <button type="submit">Enviar Mensaje</button> 
+            </form>
         </section>
 
+        <!-- SECCIÓN DE PELÍCULAS: Lista de intereses personales para que el portafolio no sea puramente técnico. 
+     Mejora futura: Incorporar una API de cine para mostrar automáticamente la puntuación de las películas y el tráiler oficial al hacer clic en la imagen. -->
         <section id="peliculas"> <h2>Peliculas Favoritas</h2>
             <article>
                 <h3>Hasta el Último Hombre</h3>
@@ -84,7 +95,7 @@
                 <img src="img/palais.jpg" alt="Poster de la película Le palais idéal du facteur Cheval">
                 <p>Sur de Francia, año 1879. Ferdinand Cheval es un humilde cartero que sueña despierto con un mundo lleno de hermosos edificios que solo ha visto en
                     las postales que reparte. Durante una de las rondas, conoce a la viuda Filomena y de su unión nace Alice.
-                    Cheval adora tanto a su hija que se propone construirle con sus propias manos un increíble palacio
+                    Cheval adora tanto a su hija que se propone construirle con sus propias manos un increíble palacio</p>
             </article>
 
             <article>
