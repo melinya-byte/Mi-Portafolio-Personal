@@ -17,8 +17,9 @@ Este es mi primer proyecto de portafolio personal desarrollado para la **Prácti
 - [x] Repositorio en GitHub creado.
 - [x] Proyecto subido al repositorio.
 - [x] Proyecto publicado utilizando GitHub Pages / Vercel.
-- [x] URL de la web publicada: [Mi Portafolio Personal](https://melinya-byte.github.io/Mi-Portafolio-Personal/)
-
+- [x] URL de la web publicada GitHub Pages: [Mi Portafolio Personal](https://melinya-byte.github.io/Mi-Portafolio-Personal/)
+- [x] URL de la web publicada Vercel: [Mi Portafolio Personal](https://mi-portafolio-personal-three.vercel.app/)
+      
 ### 3. Uso de Google Fonts
 - [x] Enlace a Google Fonts incluido en el `head`.
 - [x] La tipografía se aplica correctamente en el sitio.
